@@ -8,9 +8,9 @@ const formhandler =(event) => {
     let messagediv =document.querySelector("#loginmessage");
     messagediv.innerHTML =`<H2>${verifylogin(Usuario.value, Contraseña.value)}</H2>`;
     let btndepositar = document.querySelector("#depositame");
-    btndepositar.innerHTML = `<button id="depositar >depositar</button>`;
-    let btnretirar = document.querySelector("#retirar");
-    btndepositar.innerHTML = `<button id="retirar" >retirar</button>`;
+    btndepositar.innerHTML = `<button class= "btndepositar" id="depositar" >depositar</button>`;
+    
+
     
 
 
@@ -52,4 +52,4 @@ const registredUsers = [
     const clearhijos = (element) => {while (element.firstchild) {element.removechild(element.firstchild);}
         
     }
-    c
+    
